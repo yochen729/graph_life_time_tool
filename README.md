@@ -1,1 +1,7 @@
-# graph_life_time_tool
+# Graph_life_time_tool 一套基於圖資料庫的自動化圖結構特性分析工具
+## 簡單介紹
+1. 使用 GUI 介面選擇功能，包括dataset選擇(匯入資料)和演算法選擇。
+2. GUI 介面自動生成相應的 Cypher 語法，並將其傳送給 Neo4j 資料庫。
+3. Neo4j 資料庫執行 Cypher 語法，檢索相關資料。
+4. GUI 介面將檢索結果顯示，進一步分析資料特性。
+
